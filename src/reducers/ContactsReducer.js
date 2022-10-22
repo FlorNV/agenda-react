@@ -1,4 +1,4 @@
-export const ContactosReducer = (state = [], action) => {
+export const ContactsReducer = (state = [], action) => {
   switch (action.type) {
     case "add":
       return [...state, action.payload];
